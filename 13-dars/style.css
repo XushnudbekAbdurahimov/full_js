@@ -1,0 +1,43 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+     color: white;
+}
+table{
+     width: 80%;
+     margin: auto;
+     margin-top: 50px;
+     border-collapse: collapse;
+}
+thead{
+     background-color: dodgerblue;
+}
+body{
+     /* background: linear-gradient(90deg, rgb(69, 69, 176), gray); */
+     /* background-image: linear-gradient(25deg, #1870c0, #5897a9, #70c18e, #7aec6d); */
+     /* background-image: linear-gradient(25deg, #0a3a57, #61495e, #a05565, #de5e6b); */
+     /* background-image: linear-gradient(25deg, #212183, #253da0, #F3CA6B, #f9b984); */
+     background-image: linear-gradient(-25deg, #9e7162, #a9866d, #b49b78, #bfb083);
+     height: 100vh;
+}
+tbody tr td:nth-child(1),
+tbody tr td:nth-child(3),
+tbody tr td:nth-child(4){
+     text-align: center;
+}
+tbody tr td{
+     padding-top: 5px;
+     padding-bottom: 5px;
+}
+tbody tr td{
+     padding-top: 5px;
+     padding-bottom: 5px;
+}
+tbody tr:nth-child(odd){
+     background-image: linear-gradient(25deg, #1200f8, #9a4ad5, #d181af, #f9b984)
+}
+tbody tr:nth-child(even){
+     background-image: linear-gradient(25deg, #1a67b2, #7d5d97, #ae4f7e, #d43664)
+}

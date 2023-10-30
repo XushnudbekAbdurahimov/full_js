@@ -1,0 +1,387 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.container{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-gap: 20px;
+     width: 50px;
+     margin-left: 300px;
+     margin-top: 20px;     
+}
+#box{
+     width: 303px;
+     height: 350px;
+     border: 2px solid gray;
+     position: relative;
+     box-shadow: 1px 1px 1px gray;
+     background-color: rgba(221, 221, 221, 0.069);
+
+     
+}
+.div h1{
+     color: black;
+     font-size: 28px;
+     margin-top: -80px;
+     margin-left: 10px;
+     font-family: monospace;
+}
+.div h2{
+     /* margin-top: 50px; */
+     margin-left: 10px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.div p{
+     margin-top: 50px;
+     padding-left: 10px;
+     font-family: sans-serif;
+     color: grey;
+     font-size: small;
+}
+#img2{
+     margin-top: 30px;
+     margin-left: 10px;
+}
+#button{
+     position: absolute;
+     margin-top: 135px;
+     width: 130px;
+     margin-left: -135px;
+     height: 25px;
+     background-color: rgb(98, 98, 235);
+     border: none;
+     color: white;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 18px;
+}
+
+#button2{
+     position: absolute;
+     margin-top: 135px;
+     width: 130px;
+     margin-left: 20px;
+     height: 25px;
+     border: 3px solid rgb(98, 98, 235);
+     background-color: white;
+     color: rgb(98, 98, 235);
+     font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#box2{
+     width: 303px;
+     height: 350px;
+     border: 2px solid gray;
+     position: relative;
+     box-shadow: 1px 1px 1px gray;
+     background-color: rgba(221, 221, 221, 0.069);
+
+     
+}
+.div h1{
+     color: black;
+     font-size: 28px;
+     margin-top: -80px;
+     margin-left: 10px;
+     font-family: monospace;
+}
+.div h2{
+     /* margin-top: 50px; */
+     margin-left: 10px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.div p{
+     margin-top: 50px;
+     padding-left: 10px;
+     font-family: sans-serif;
+     color: grey;
+     font-size: small;
+}
+#img2{
+     margin-top: 30px;
+     margin-left: 10px;
+}
+#button{
+     position: absolute;
+     margin-top: 135px;
+     width: 130px;
+     margin-left: -135px;
+     height: 25px;
+     background-color: rgb(98, 98, 235);
+     border: none;
+     color: white;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 18px;
+}
+
+#button2{
+     position: absolute;
+     margin-top: 135px;
+     width: 130px;
+     margin-left: 20px;
+     height: 25px;
+     border: 3px solid rgb(98, 98, 235);
+     background-color: white;
+     color: rgb(98, 98, 235);
+     font-size: 18px;
+}
+
+
+
+
+#box3{
+     width: 303px;
+     height: 350px;
+     border: 2px solid gray;
+     position: relative;
+     box-shadow: 1px 1px 1px gray;
+     background-color: rgba(221, 221, 221, 0.069);
+
+     
+}
+.div h1{
+     color: black;
+     font-size: 28px;
+     margin-top: -80px;
+     margin-left: 10px;
+     font-family: monospace;
+}
+.div h2{
+     /* margin-top: 50px; */
+     margin-left: 10px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.div p{
+     margin-top: 50px;
+     padding-left: 10px;
+     font-family: sans-serif;
+     color: grey;
+     font-size: small;
+}
+#img2{
+     margin-top: 30px;
+     margin-left: 10px;
+}
+#button{
+     position: absolute;
+     margin-top: 135px;
+     width: 130px;
+     margin-left: -135px;
+     height: 25px;
+     background-color: rgb(98, 98, 235);
+     border: none;
+     color: white;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 18px;
+}
+
+#button2{
+     position: absolute;
+     margin-top: 135px;
+     width: 130px;
+     margin-left: 20px;
+     height: 25px;
+     border: 3px solid rgb(98, 98, 235);
+     background-color: white;
+     color: rgb(98, 98, 235);
+     font-size: 18px;
+}
+
+
+
+#box4{
+     width: 303px;
+     height: 350px;
+     border: 2px solid gray;
+     position: relative;
+     box-shadow: 1px 1px 1px gray;
+     background-color: rgba(221, 221, 221, 0.069);
+
+     
+}
+.div h1{
+     color: black;
+     font-size: 28px;
+     margin-top: -80px;
+     margin-left: 10px;
+     font-family: monospace;
+}
+.div h2{
+     /* margin-top: 50px; */
+     margin-left: 10px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.div p{
+     margin-top: 50px;
+     padding-left: 10px;
+     font-family: sans-serif;
+     color: grey;
+     font-size: small;
+}
+#img2{
+     margin-top: 30px;
+     margin-left: 10px;
+}
+#button{
+     position: absolute;
+     margin-top: 135px;
+     width: 130px;
+     margin-left: -135px;
+     height: 25px;
+     background-color: rgb(98, 98, 235);
+     border: none;
+     color: white;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 18px;
+}
+
+#button2{
+     position: absolute;
+     margin-top: 135px;
+     width: 130px;
+     margin-left: 20px;
+     height: 25px;
+     border: 3px solid rgb(98, 98, 235);
+     background-color: white;
+     color: rgb(98, 98, 235);
+     font-size: 18px;
+}
+
+
+
+
+#box5{
+     width: 303px;
+     height: 350px;
+     border: 2px solid gray;
+     position: relative;
+     box-shadow: 1px 1px 1px gray;
+     background-color: rgba(221, 221, 221, 0.069);
+
+     
+}
+.div h1{
+     color: black;
+     font-size: 28px;
+     margin-top: -80px;
+     margin-left: 10px;
+     font-family: monospace;
+}
+.div h2{
+     /* margin-top: 50px; */
+     margin-left: 10px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.div p{
+     margin-top: 50px;
+     padding-left: 10px;
+     font-family: sans-serif;
+     color: grey;
+     font-size: small;
+}
+#img2{
+     margin-top: 30px;
+     margin-left: 10px;
+}
+#button{
+     position: absolute;
+     margin-top: 135px;
+     width: 130px;
+     margin-left: -135px;
+     height: 25px;
+     background-color: rgb(98, 98, 235);
+     border: none;
+     color: white;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 18px;
+}
+
+#button2{
+     position: absolute;
+     margin-top: 135px;
+     width: 130px;
+     margin-left: 20px;
+     height: 25px;
+     border: 3px solid rgb(98, 98, 235);
+     background-color: white;
+     color: rgb(98, 98, 235);
+     font-size: 18px;
+}
+
+
+
+#box6{
+     width: 303px;
+     height: 350px;
+     border: 2px solid gray;
+     position: relative;
+     box-shadow: 1px 1px 1px gray;
+     background-color: rgba(221, 221, 221, 0.069);
+
+     
+}
+.div h1{
+     color: black;
+     font-size: 28px;
+     margin-top: -80px;
+     margin-left: 10px;
+     font-family: monospace;
+}
+.div h2{
+     /* margin-top: 50px; */
+     margin-left: 10px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.div p{
+     margin-top: 50px;
+     padding-left: 10px;
+     font-family: sans-serif;
+     color: grey;
+     font-size: small;
+}
+#img2{
+     margin-top: 30px;
+     margin-left: 10px;
+}
+#button{
+     position: absolute;
+     margin-top: 135px;
+     width: 130px;
+     margin-left: -135px;
+     height: 25px;
+     background-color: rgb(98, 98, 235);
+     border: none;
+     color: white;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 18px;
+}
+
+#button2{
+     position: absolute;
+     margin-top: 135px;
+     width: 130px;
+     margin-left: 20px;
+     height: 25px;
+     border: 3px solid rgb(98, 98, 235);
+     background-color: white;
+     color: rgb(98, 98, 235);
+     font-size: 18px;
+}

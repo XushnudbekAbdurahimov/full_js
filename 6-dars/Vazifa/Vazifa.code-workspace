@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../vazifa2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5502
+	}
+}

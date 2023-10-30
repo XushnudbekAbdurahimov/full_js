@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Vazifa</title>
+<link rel="stylesheet" href="./main.css">
+</head>
+<body>
+     <div class="login">
+          <h1>Login</h1>
+          <form id="form"  action="#">
+              <div class="input_box">
+                  <span class="icon"><i class='bx bxs-envelope'></i></ion-icon></span>
+                  <input type="email" id="email">
+                  <label for="" id="ll">Email</label>
+              </div>
+              <div class="input_box">
+                  <span class="icon"><i class='bx bxs-lock-alt'></i></ion-icon></span>
+                  <input type="password" id="password">
+                  <label for="">PassWord</label>
+              </div>
+              <div class="remember_forgot">
+                  <label for="">
+                      <input type="checkbox">
+                      Remember me 
+                  </label><a href="#">Forgot Password</a>
+              </div>
+              <button class="btn" onclick="Func()">Login</button>
+  
+              <div class="login_register">
+                  <p>Don't have a account <a href="#" onclick="Reg()" class="reg_link">Register</a></p>
+              </div>
+          </form>
+      </div>
+  
+      <div class="reg" style="display: none">
+          <h1>Registration</h1>
+          <form action="#">
+              <div class="input_box">
+                  <span class="icon"><i class='bx bxs-user'></i></span>
+                  <input type="text" id="regusername">
+                  <label for="">UserName</label>
+              </div>
+              <div class="input_box">
+                  <span class="icon"><i class='bx bxs-envelope'></i></ion-icon></span>
+                  <input type="email" id="regemail">
+                  <label for="" id="ll">Email</label>
+              </div>
+              <div class="input_box">
+                  <span class="icon"><i style="cursor: pointer;" onclick="Lock()" class='bx bxs-lock-alt'></i></ion-icon></span>
+                  <input type="password" id="regpassword" required>
+                  <label for="">PassWord</label>
+              </div>
+              <div class="remember_forgot">
+                  <label for="">
+                  </label>
+              </div>
+              <button class="btn" onclick="Save()">Register</button>
+  
+              <div class="login_register">
+                  <p><a href="#" onclick="Login()" class="reg_link">Login</a></p>
+              </div>
+          </form>
+      </div>
+  
+      <div class="loading">
+          <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+     <script src="./script.js"></script>
+</body>
+</html>

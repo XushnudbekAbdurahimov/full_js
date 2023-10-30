@@ -1,0 +1,33 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.container {
+     background: linear-gradient(45deg, pink, lightblue);
+     width: 600px;
+     height: 95vh;
+     margin: auto;
+     padding-left: 155px;
+     border-radius: 20px;
+     margin-top: 20px;
+}
+
+input {
+     background: linear-gradient(45deg, lightblue, pink);
+     width: 270px;
+     height: 35px;
+     border-radius: 8px;
+     border: none;
+     margin-top: 50px;
+     text-indent: 15px;
+}
+
+button {
+     background: linear-gradient(45deg, pink, lightblue);
+     width: 50px;
+     height: 35px;
+     border-radius: 8px;
+     border: none;
+}

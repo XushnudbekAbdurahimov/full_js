@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Javascript login-form</title>
+     <link rel="stylesheet" href="./style.css">
+     <link rel="icon" href="./Без названия (1).png">
+</head>
+
+<body>
+     <div class="container">
+          <div class="login">
+               <div class="h2">Sign in</div>
+               <div class="p">
+                    <p>Sign in with your username and password</p>
+               </div>
+               <p class="p_1000">
+
+               </p>
+               <div class="mk">
+                    <p class="p_2">Your username
+                    </p>
+                    <input type="text" placeholder="Enter Username" class="login">
+                    <p id="succ"></p>
+                    <p id="err"></p>
+                    <p class="p_500"></p>
+                    <p class="p_3">Your password</p>
+
+                    <input type="password" placeholder="Enter Password" class="parol">
+
+                    <div class="register">
+                         <input type="checkbox" class="box"><span>Remember me</span>
+
+                         <a href="#">Forget password?</a>
+                    </div>
+                    <button onclick="SignIn()">Login</button>
+
+                    <p onclick="Register()">Not a remember?<a href="#">Registar here?</a></p>
+               </div>
+
+          </div>
+     </div>
+
+
+
+
+
+
+     <div class="Regcontainer">
+          <div class="Reglogin">
+               <div class="Regh2">Registar</div>
+               <div class="Regp">
+                    <p>Sign up with your username and password</p>
+               </div>
+               <p class="Regp_1000">
+
+               </p>
+               <div class="Regmk">
+                    <p class="Regp_2">Your username
+                    </p>
+                    <input type="text" placeholder="Enter Username" class="Reginput_1">
+
+                    <p class="Regp_3">Your password</p>
+
+                    <input type="password" placeholder="Enter Password" class="Reginput_2">
+
+                    <div class="Regregister">
+                         <input type="checkbox" class="box"><span>Remember me</span>
+
+                         <a href="#">Forget password?</a>
+                    </div>
+                    <button onclick="SignUp()">Registar</button>
+
+                    <p onclick="Login()">Not a remember?<a href="#">Sign In</a></p>
+               </div>
+
+          </div>
+     </div>
+
+
+     <script src="./App.js"></script>
+</body>
+
+</html>

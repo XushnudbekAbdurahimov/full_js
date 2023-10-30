@@ -1,0 +1,2 @@
+let Obj = [
+     Name: "Algo

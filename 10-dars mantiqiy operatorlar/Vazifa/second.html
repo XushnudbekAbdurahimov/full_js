@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<div class="container">
+    <div id="log" class="login">
+        <div class="h2">Sign in</div>
+        <div class="p">
+             <p>Sign in with your username and password</p>
+        </div>
+        <p class="p_1000">
+
+        </p>
+        <div class="mk">
+             <p class="p_2">Your username
+             </p>
+
+        <div class="errBox">
+            <p id="succ"></p>
+            <p id="err"></p>
+        </div>
+        <p class="p_500"></p>
+        <input type="text" name="" id="login" placeholder="Enter Username">
+        <p class="p_3">Your password</p>
+
+        <input type="text" name="" id="parol" placeholder="Enter Password">
+
+        <div class="register">
+            <input type="checkbox" class="box"><span class="span">Remember me</span>
+
+            <a href="#">Forget password?</a>
+       </div>
+       <button onclick="SignIn()" class="sign">Tizimga kirish</button>
+
+
+       <p onclick="Register()">Not a remember?<a href="#" id="href">Registar here?</a></p>
+    </div>
+
+    <div id="reg" class="login">
+        <h1>Register</h1>
+
+        <div class="errBox">
+            <p id="succ"></p>
+            <p id="err"></p>
+        </div>
+
+        <input type="text" name="" id="loginReg" placeholder="login">
+        <input type="text" name="" id="parolReg" placeholder="parol">
+
+        <button onclick="SignUp()" class="sign">Ro'yhatdan o'tish</button>
+        <button onclick="Login()" class="reg">login</button>
+    </div>
+    <div id="reg" class="login">
+        <h1>Register</h1>
+
+        <div class="errBox">
+            <p id="succ"></p>
+            <p id="err"></p>
+        </div>
+
+        <input type="text" name="" id="loginReg" placeholder="login">
+        <input type="text" name="" id="parolReg" placeholder="parol">
+
+        <button onclick="SignUp()" class="sign">Ro'yhatdan o'tish</button>
+        <button onclick="Login()" class="reg">login</button>
+    </div>
+</div>
+</div>
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

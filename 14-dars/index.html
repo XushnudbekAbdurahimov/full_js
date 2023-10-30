@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Mouse</title>
+     <link rel="stylesheet" href="./style.css">
+     <style>
+          *{
+               margin: 0;
+               padding: 0;
+               box-sizing: border-box;
+          }
+          body{
+               position: relative;
+               height: 100vh;
+               width: 100%;
+               /* background-color: black; */
+          }
+          #container{
+               width: 50px;
+               height: 50px;
+               background-color: blue;
+               box-shadow: 0 0 20px blue, 0 0 60px blue, 0 0 100px blue;
+               position: fixed;
+               z-index: 999;
+               animation: colors 5s infinite;
+               pointer-events: none;
+               transform: translate(-50%, 50%);
+               border-radius: 50%;
+          }
+          @keyframes colors{
+               0%{
+                    filter: hue-rotate(0deg);
+               }
+               100%{
+                    filter: hue-rotate(360deg);
+               }
+          }
+     </style>
+</head>
+
+<body>
+     <!-- <h1>
+          Mouse
+     </h1>
+     <div id="my_div">
+
+     </div>
+     <button id="clear">
+          Clear All
+     </button>
+     <h2 id="Result"></h2> -->
+
+     <div id="container">
+
+          <h1 id="h1"></h1>
+          
+
+
+     </div>
+
+
+
+     <!-- Takrorlash umumiy -->
+
+
+
+
+
+
+     <script src="./app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Alumni+Sans+Collegiate+One:ital@0;1&family=Croissant+One&family=Great+Vibes&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kalam:wght@300;400;700&family=Lobster&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montez&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Palanquin+Dark:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Iso&family=Teko:wght@300;400;500;600;700&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Alumni+Sans+Collegiate+One:ital@0;1&family=Croissant+One&family=Dancing+Script:wght@400;500;600;700&family=Great+Vibes&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kalam:wght@300;400;700&family=Lobster&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montez&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Palanquin+Dark:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Iso&family=Teko:wght@300;400;500;600;700&family=Young+Serif&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     background-image: url("./fantasy-2049567_640.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.container{
+     width: 60%;
+     height: 100vh;
+     margin: auto;
+     margin-top: 50px;
+}
+.boxs{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     gap: 30px;
+
+}
+.box1, .box2, .box3, .box4, .box5, .box6{
+     width: 300px;
+     height: 350px;
+     /* box-shadow:
+     inset 0 -3em 3em rgba(52, 57, 220, 0.1),
+     0 0 0 2px rgb(181, 228, 50),
+     0.3em 0.3em 1em rgba(17, 158, 24, 0.3); */
+     background: linear-gradient(#2193b005, #6dd5ed);
+     border-radius: 5px;
+     transform: rotate(45deg);
+}
+
+.h1{
+     color: black;
+     text-align: center;
+     margin-top: -250px;
+     z-index: 15;
+     position: relative;
+     font-family: cursive;
+     color: #00FFFF;
+}
+.p{
+     position: relative;
+     font-family: Alumni Sans Collegiate One;
+     font-size: 20px;
+     margin-top: 5px;
+     color: #00FFFF;
+     margin-left: 150px;
+
+}
+.p2{
+     text-align: center;
+     position: relative;
+     font-family: Jost;
+     margin-top: 40px;
+     color: #A2D8F4;
+
+}
+.h2{
+     position: relative;
+     text-align: left;
+     margin-top: 10px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 20px;
+     color: #A2D8F4;
+
+}
+
+
+
+
+
+.boxs2{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     gap: 30px;
+
+}
+.box4, .box5, .box6{
+     width: 300px;
+     height: 350px;
+     /* box-shadow:
+     inset 0 -3em 3em rgba(52, 57, 220, 0.1),
+     0 0 0 2px rgb(181, 228, 50),
+     0.3em 0.3em 1em rgba(17, 158, 24, 0.3); */
+     background: linear-gradient(#2193b005, #6dd5ed);
+     border-radius: 5px;
+     transform: rotate(45deg);
+}
+
+.h12{
+     color: black;
+     text-align: center;
+     margin-top: -250px;
+     z-index: 15;
+     position: relative;
+     font-family: cursive;
+     color: #00FFFF;
+
+}
+.p12{
+     margin-left: 150px;
+     position: relative;
+     font-family: Alumni Sans Collegiate One;
+     font-size: 20px;
+     margin-top: 5px;
+     color: #00FFFF;
+
+}
+.p22{
+     text-align: center;
+     position: relative;
+     font-family: Jost;
+     margin-top: 40px;
+     color: #A2D8F4;
+
+}
+.h22{
+     position: relative;
+     text-align: left;
+     margin-top: 10px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 20px;
+     color: #A2D8F4;
+
+}
+
+

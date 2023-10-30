@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="log" class="login">
+        <h1>Login</h1>
+
+        <div class="errBox">
+            <p id="succ"></p>
+            <p id="err"></p>
+        </div>
+
+        <input type="text" name="" id="login" placeholder="login">
+        <input type="text" name="" id="parol" placeholder="parol">
+
+        <button onclick="SignIn()" class="sign">Tzimga kirish</button>
+        <button onclick="Register()" class="reg">register</button>
+        <button onclick="Clear()" class="Clear">Clear</button>
+    </div>
+
+    <div id="reg" class="login">
+        <h1>Register</h1>
+
+        <div class="errBox">
+            <p id="succ"></p>
+            <p id="err"></p>
+        </div>
+
+        <input type="text" name="" id="loginReg" placeholder="login">
+        <input type="text" name="" id="parolReg" placeholder="parol">
+
+        <button onclick="SignUp()" class="sign">Ro'yhatdan o'tish</button>
+        <button onclick="Login()" class="reg">login</button>
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
